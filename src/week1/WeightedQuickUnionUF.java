@@ -1,3 +1,4 @@
+package week1;
 /******************************************************************************
  *  Compilation:  javac WeightedQuickUnionUF.java
  *  Execution:  java WeightedQuickUnionUF < input.txt
@@ -180,7 +181,7 @@ public class WeightedQuickUnionUF {
      *
      * @param args the command-line arguments
      */
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         int n = StdIn.readInt();
         WeightedQuickUnionUF uf = new WeightedQuickUnionUF(n);
         while (!StdIn.isEmpty()) {
@@ -191,7 +192,7 @@ public class WeightedQuickUnionUF {
             StdOut.println(p + " " + q);
         }
         StdOut.println(uf.count() + " components");
-    }
+    }*/
 
 }
 
