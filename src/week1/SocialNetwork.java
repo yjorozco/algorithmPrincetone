@@ -1,10 +1,12 @@
 package week1;
+import java.io.IOException;
+
 import helpers.*;
 
 public class SocialNetwork {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NumberFormatException, IOException {
         int n = StdIn.readInt();
         WeightedQuickUnionUF uf = new WeightedQuickUnionUF(n);
         while (!StdIn.isEmpty()) {

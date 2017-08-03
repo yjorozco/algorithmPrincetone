@@ -1,18 +1,20 @@
-package helpers
+package helpers;
 
-
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class StdIn {
 
-BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+	static BufferedReader  reader = new BufferedReader(new InputStreamReader(System.in));
 
-public static int readInt(){
+public static int readInt() throws NumberFormatException, IOException{
 
-	return Integer.parseInt(this.reader.readLine());
+	return Integer.parseInt(reader.readLine());
 
 }
 
-public static boolean isEmty(){
+public static boolean isEmpty() throws IOException{
 	return reader.ready();
 }
 
