@@ -14,7 +14,7 @@ public static int readInt() throws NumberFormatException, IOException{
 
 }
 
-public static boolean isEmpty() throws IOException{
+public static boolean isNotEmpty() throws IOException{
 	return reader.ready();
 }
 

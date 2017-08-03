@@ -173,6 +173,31 @@ public class WeightedQuickUnionUF {
     }
 
 
+ /****  I added these lines *****/
+    
+    /**
+     * Returns the component identifier for the component containing site {@code p}.
+     *
+     * @param  p the integer representing one object
+     * @return the component identifier for the component containing site {@code p}
+     * @throws IllegalArgumentException unless {@code 0 <= p < n}
+     */
+  /*  public int findGreaters(int p) {
+        validate(p);
+        p = parent[p];
+        while (p != parent[p])
+            p = parent[p];
+        
+        
+        return p;
+    }*/
+    
+    
+    
+    
+    
+    
+    
     /**
      * Reads in a sequence of pairs of integers (between 0 and n-1) from standard input, 
      * where each integer represents some object;
