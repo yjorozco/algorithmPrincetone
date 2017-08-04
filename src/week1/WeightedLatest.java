@@ -213,17 +213,17 @@ public class WeightedLatest {
     public static void main(String[] args) throws NumberFormatException, IOException {
         int n = 10;
         WeightedLatest uf = new WeightedLatest(n);
-      	uf.union(5, 1);
+      	uf.union(5, 2);
       	StdOut.println(String.valueOf(uf.find(0)));        
-      	uf.union(2, 1);
+      	uf.union(2, 2);
       	StdOut.println(String.valueOf(uf.find(2)));            
-      	uf.union(3, 1);
+      	uf.union(3, 2);
       	StdOut.println(String.valueOf(uf.find(3)));     
-      	uf.union(4, 1);
+      	uf.union(1, 2);
       	StdOut.println(String.valueOf(uf.find(4)));     
-      	uf.union(4, 3);
+      	uf.union(4, 1);
       	StdOut.println(String.valueOf(uf.find(3)));
-      	uf.union(8, 9);
+      	uf.union(8, 1);
       	StdOut.println(String.valueOf(uf.find(8)));
       	uf.union(8, 5);
       	StdOut.println(String.valueOf(uf.find(4)));
